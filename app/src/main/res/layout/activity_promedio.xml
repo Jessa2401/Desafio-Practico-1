@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".PromedioActivity">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar nombre"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+         />
+
+    <EditText
+        android:id="@+id/nota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar nota 1"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <EditText
+        android:id="@+id/nota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar nota 2"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <EditText
+        android:id="@+id/nota3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar nota 3"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <EditText
+        android:id="@+id/nota4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar nota 4"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <EditText
+        android:id="@+id/nota5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar nota 5"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <Button
+        android:id="@+id/calcularPromedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Promedio" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resulatdo:"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

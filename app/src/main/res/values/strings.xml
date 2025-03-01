@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Desafio Practico 1</string>
+    <string name="hint_input">Ingresar nombre</string>
+    <string name="result">Resultado: </string>
 </resources>
